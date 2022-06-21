@@ -34,15 +34,32 @@ public class Main {
 //
 //        System.out.println(result);
 
-        int personAge = 64;
-        int wifeAge = 60;
-        int gap = Math.abs(personAge-wifeAge);
+//        int personAge = 64;
+//        int wifeAge = 60;
+//        int gap = Math.abs(personAge-wifeAge);
+//
+//        if((personAge >= 50 && wifeAge >= 40) && gap <= 2){
+//            System.out.println("Eligible to Get bounty prize!");
+//        }else{
+//            System.out.println("Not!");
+//        }
 
-        if((personAge >= 50 && wifeAge >= 40) && gap <= 2){
-            System.out.println("Eligible to Get bounty prize!");
-        }else{
-            System.out.println("Not!");
-        }
+//        Person p1 = new Person();
+//        p1.setAge(24);
+//        p1.setGender("male");
+//        p1.setName("Jhon");
+
+//        Person p2 = new Person();
+//        p2.age = 25;
+//        p2.name = "iron";
+//        p2.gender = "male";
+
+        Candy x = new Candy();
+        x.setName("Irvan");
+        x.setPrice(10000);
+
+        System.out.println(x.getName());
+        System.out.println(x.getPrice());
 
     }
 }
