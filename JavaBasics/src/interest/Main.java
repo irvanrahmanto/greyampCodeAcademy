@@ -7,7 +7,7 @@ public class Main {
 
 //        Call the method from class
 //        x.countInterest();
-        int calculateInterest = x.countInterest(10,10,10);
+        int calculateInterest = x.countInterest(13000,12,20);
         System.out.println("Result for the Interest is : ");
         System.out.println(calculateInterest);
     }

@@ -16,6 +16,8 @@ public class candyMaster {
         System.out.println(myCandy.getName());
         System.out.println(myCandy.getPrice());
         System.out.println(myCandy.getQuantitiy());
+
+        System.out.println("My Candy name is "+myCandy.getName()+" , with the price "+myCandy.getPrice()+" and the Quantitiy is "+myCandy.getQuantitiy());
     }
 
 }

@@ -70,7 +70,7 @@ public class Pet {
     }
 
     public void sleepy(){
-        System.out.println("This is eat");
+        System.out.println("Let's go sleep");
     }
 
     public void say(String word){
