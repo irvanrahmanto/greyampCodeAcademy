@@ -37,38 +37,38 @@ public class ForLoop {
 
 //        Number 5
 
-        Scanner inp = new Scanner(System.in);
-        System.out.println("Enter the number of rows : ");
-        int sc = inp.nextInt();
+//        Scanner inp = new Scanner(System.in);
+//        System.out.println("Enter the number of rows : ");
+//        int sc = inp.nextInt();
 
 //        int sc = 4;
 
-        for (int i=1; i<=sc; i++){
-            for (int j=1; j<=i; j++){
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+//        for (int i=1; i<=sc; i++){
+//            for (int j=1; j<=i; j++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
 
-        int i=0;
-        int sum= 0;
+//        int i=0;
+//        int sum= 0;
+//
+//        while(i <= 10){
+//            System.out.println("haha"+ i);
+//            i++;
+//        }
 
-        while(i <= 10){
-            System.out.println("haha"+ i);
-            i++;
-        }
-
-        do{
-            System.out.println(sum);
-        }while(i == 10);
+//        do{
+//            System.out.println(sum);
+//        }while(i == 10);
 
         //        Number 6
-        Scanner inp2 = new Scanner(System.in);
-        System.out.println("Enter the number : ");
-        int num2 = inp2.nextInt();
-
-        ForLoop obj = new ForLoop();
-        obj.isMultiple2(num2);
+//        Scanner inp2 = new Scanner(System.in);
+//        System.out.println("Enter the number : ");
+//        int num2 = inp2.nextInt();
+//
+//        ForLoop obj = new ForLoop();
+//        obj.isMultiple2(num2);
 
 //        Number 7
         for (int i=1; i<=5; i++){
