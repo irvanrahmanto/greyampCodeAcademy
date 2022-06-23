@@ -56,7 +56,7 @@ public class Homework {
 
     public void isGradingSystem(int marks){
         if(marks > 0){
-            if(marks >= 90 && marks < 100){
+            if(marks >= 90 && marks <= 100){
                 System.out.println("congratulations, You in grade A+ !");
             }else if(marks >= 80 && marks < 90){
                 System.out.println("You in grade A! ");
@@ -69,6 +69,8 @@ public class Homework {
             }else if(marks < 50){
                 System.out.println("So sorry, you FAIL");
             }
+        }else{
+            System.out.println("Marks is less than zero, you have to input greater than zero");
         }
     }
 }
