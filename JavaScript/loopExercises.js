@@ -12,6 +12,7 @@ function isLoop(n){
     }
 }
 
+// Call the function to print!
 isLoop(20);
 
 // let isLoop = (n) => {
@@ -27,3 +28,32 @@ isLoop(20);
 //     }
 // }
 // isLoop(20);
+
+// Number 2
+// inp = 5;
+
+
+// function isPattern(inp){
+//     let string = "";
+//     for(let i=1; i<inp; i++){
+//         for(let x=1; x<inp; x++){
+//             string += "*";
+//         }
+//         string += "\n";
+//     }
+//     console.log();
+// }
+
+// isPattern(10);
+
+let n = 5;
+let string = "";
+for (let i = 0; i < n; i++) {
+    // printing star
+    for (let k = 0; k < n - i; k++) {
+        string += "*";
+    }
+    string += "\n";
+}
+console.log(string);
+
