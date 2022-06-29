@@ -19,17 +19,16 @@ triple(7) should return 21
 //     return calcFunc;
 // }
 
-// const triple = isNumberMultipier(3);
+// export const triple = isNumberMultipier(3);
 // triple(7);
 
 // Alternatif 2
 
 let isNumberMultipier = (x) =>
-    (y) =>
+    (y) => {
         console.log("")
         console.log("The result is : " + y * x);
-
-const triple = isNumberMultipier(3);
+    }
+        
+export const triple = isNumberMultipier(3);
 triple(7);
-
-// () => value

@@ -1,6 +1,6 @@
 // Properly close to something
 
-function runMyFunction(fn) {
+export function runMyFunction(fn) {
     const myNum = 3;
     fn(myNum);
 }

@@ -48,7 +48,7 @@ const squirtle = {}
 
 const trainer = "Red";
 
-const starters = [
+export const starters = [
     ironMan, 
     charmander, 
     ["HALO","IRVAN"], 
@@ -59,9 +59,9 @@ const starters = [
     ["Irvan","Naufali","Rahmanto"]
 ];
 
-const parts = "somestring".split("s");
+// const parts = "somestring".split("s");
 
 // console.log(ironMan.moves[0].name);
-console.log(ironMan.moves.map(move => move.name))
+// console.log(ironMan.moves.map(move => move.name))
 
-// console.log(starters[2].length);
+console.log(starters[2].length);
