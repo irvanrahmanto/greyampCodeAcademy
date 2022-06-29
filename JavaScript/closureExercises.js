@@ -29,6 +29,8 @@ let isNumberMultipier = (x) =>
         console.log("")
         console.log("The result is : " + y * x);
     }
-        
+
 export const triple = isNumberMultipier(3);
 triple(7);
+
+// Adding new line of code of this exercises
