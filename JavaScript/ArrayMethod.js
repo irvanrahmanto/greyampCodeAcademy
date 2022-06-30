@@ -87,9 +87,6 @@ const arr3 = [11, 12, 13, 14, 15];
 // sarr_num.sort(mysort);
 // console.log('the output: ',sarr_num);
 
-
-
-
 const fruits = [
     {name: "orange", price: 500},
     {name: "apple", price: 200},
